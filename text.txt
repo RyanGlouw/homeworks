@@ -1,3 +1,5 @@
 Команды Git
 
-git rm -r --cached "путь"
+git rm -r --cached "путь" удалить из индекса
+
+git cimmit -m "" сохр коммита
