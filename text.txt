@@ -2,4 +2,4 @@
 
 git rm -r --cached "путь" удалить из индекса
 
-git cimmit -m "" сохр коммита
+git commit -m "" сохр коммита
