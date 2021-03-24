@@ -1,0 +1,52 @@
+body {
+    /* размер шрифта */
+    font-size: 32px;
+    margin: 0;
+    background: url(https://images.wallpaperscraft.ru/image/gradient_fon_tsvet_185632_1920x1200.jpg);
+
+}
+
+/* цвета */
+
+.light-pink-background {
+    background-color: #EEE2DC;
+}
+
+.light-pink-text {
+    color: #EEE2DC;
+}
+
+header {
+    background-color: sienna;
+}
+
+footer {
+    background-color: slateblue;
+
+}
+
+footer a {
+    color: tomato;
+}
+
+a {
+    text-decoration: none;
+}
+
+header ul {
+    margin: 0;
+    /* оформление маркеров списка */
+    list-style-type: none;
+}
+
+/* браузеры могут накладывать свои элементы */
+* {
+    /* стили применяются ко всем элементам */
+}
+
+.container {
+    /* width: ; не используется */
+    max-width: 1200px;
+    /* 0 -верх низ\ auto лево право */
+    margin: 0 auto;
+}
