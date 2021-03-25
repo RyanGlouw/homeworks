@@ -3,6 +3,7 @@ body {
     font-size: 32px;
     margin: 0;
     background: url(https://images.wallpaperscraft.ru/image/gradient_fon_tsvet_185632_1920x1200.jpg);
+    background-attachment: fixed;
 
 }
 
