@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/flex-grid.css">
+    <link rel="stylesheet" href="css/flex-style.css">
+    <title>Document</title>
+</head>
+<style>
+    .elem {
+        margin: 1rem;
+        box-shadow: 0 5px 5px black;
+    }
+
+    .firstdiv {
+        height: 100px;
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .elem h3 {
+        background-color: #EDC7B7;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        text-align: center;
+        margin: 0;
+    }
+
+    .flex-1 {
+        flex: 1;
+        align-items: center;
+    }
+
+    .elem-menu {
+        display: flex;
+        text-align: center;
+        border: solid 2px black;
+        justify-content: center;
+
+    }
+</style>
+
+<body>
+    <header class="flex-row ">
+        <a class="elem-menu flex-1" href="main.html">link1</a>
+        <a class="elem-menu flex-1" href="main.html">link2</a>
+        <a class="elem-menu flex-1" href="main.html">link3</a>
+        <a class="elem-menu flex-1" href="main.html">link4</a>
+        <a class="elem-menu flex-1" href="main.html">link5</a>
+    </header>
+    <div class="flex-row">
+        <div class="flex-column col-2">
+            <a class="elem-menu flex-1" href="main.html">link1</a>
+            <a class="elem-menu flex-1" href="main.html">link2</a>
+            <a class="elem-menu flex-1" href="main.html">link3</a>
+            <a class="elem-menu flex-1" href="main.html">link4</a>
+            <a class="elem-menu flex-1" href="main.html">link5</a>
+        </div>
+
+        <main class="col-10">
+
+            <div class="flew-row">
+                <div class="offset-2 col-8">
+                    <div class="elem firstdiv"><img src="https://picsum.photos/400/400?random=1"></div>
+                </div>
+                <div class="flex-row">
+                    <div class="col-3">
+                        <div class="elem">
+                            <h3>Title</h3>
+                            <img src="https://picsum.photos/400/400?random=1">
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="elem">
+                            <h3>Title</h3>
+                            <img src="https://picsum.photos/400/400?random=1">
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="elem">
+                            <h3>Title</h3>
+                            <img src="https://picsum.photos/400/400?random=1">
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="elem">
+                            <h3>Title</h3>
+                            <img src="https://picsum.photos/400/400?random=1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex-row">
+                <div class="col-6">
+                    <div class="elem">Элемент</div>
+                </div>
+                <div class="col-3">
+                    <div class="elem">Элемент</div>
+                </div>
+                <div class="col-3">
+                    <div class="elem">Элемент</div>
+                </div>
+            </div>
+
+            <div class="flex-row">
+                <div class="col-3">
+                    <div class="elem">Элемент</div>
+                </div>
+                <div class="col-3">
+                    <div class="elem">Элемент</div>
+                </div>
+                <div class="col-6">
+                    <div class="elem">Элемент</div>
+                </div>
+            </div>
+
+            <div class="flex-row">
+                <div class="col-6 flew-row ">
+                    <div class="elem flex-row">
+                        <div class="col-6 flex-column">
+                            <div>Текст Текст Текст Текст Текст</div>
+                            <div>
+                                <img src="https://picsum.photos/400/400?random=1">
+
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <img src="https://picsum.photos/400/400?random=1">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 flex-column">
+                    <div class="elem">Элемент</div>
+                    <div class="elem">Элемент</div>
+                </div>
+
+        </main>
+    </div>
+    <footer class="flex-row ">FOOTER</footer>
+</body>
+
+</html>
